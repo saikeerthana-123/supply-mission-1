@@ -50,7 +50,7 @@ function draw() {
   background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
-  packageBody.restitution = 0.8;
+  packageBody.restitution = 1;
   drawSprites();
  
 }
